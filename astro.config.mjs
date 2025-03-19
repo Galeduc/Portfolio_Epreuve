@@ -3,12 +3,8 @@ import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 import sitemap from "@astrojs/sitemap";
 
-// https://astro.build/config
 export default defineConfig({
-  site: 'https://Galeduc.github.io',
-  base: '/Portfolio_Epreuve',
-  devToolbar: {
-    enabled: false
-  },
+  site: 'http://galeduc.works', // Assurez-vous d'utiliser HTTPS
+  base: '/', // Ajoutez cette ligne si vous utilisez un domaine personnalisé
   integrations: [react(), tailwind(), sitemap()],
 });

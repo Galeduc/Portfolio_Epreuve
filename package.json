@@ -7,7 +7,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/react": "^3.3.0",
@@ -20,7 +22,9 @@
   },
   "description": "![Portada](image-1.png)",
   "main": "index.astro",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SofiDevO/portfolio-astrosofidev-garrux.git"
@@ -40,5 +44,5 @@
   "bugs": {
     "url": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux/issues"
   },
-  "homepage": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux#readme"
+  "homepage": "https://Galeduc.github.io/Portfolio_Epreuve"
 }

@@ -199,7 +199,7 @@ export const portafolioData = [
 	{
 		imgSrc: '/img/v12proentreprise.png',
 		title: 'V12ProEntreprise',
-		skills: ['PHP'],
+		skills: ['Symfony'],
 		descripcion: 'Ajout et développement de nouvelles fonctionnalités sur une application d’expert-comptable, avec adaptation au cahier des charges et support de l’évolution applicative.',
 		demoURL: 'URL_DEMO_V12PROENTREPRISE',
 		repoURL: 'URL_REPO_V12PROENTREPRISE',
